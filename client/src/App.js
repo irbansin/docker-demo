@@ -5,13 +5,13 @@ import AddTask from "./pages/AddTask";
 import EditTask from "./pages/EditTask";
 
 function App() {
+  
   return (
     <BrowserRouter>
       <Navbar />
       <div className="container">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="add" element={<AddTask />} />
+          <Route path="/" element={<AddTask />} />
           <Route path="edit/:id" element={<EditTask />} />
         </Routes>
       </div>
