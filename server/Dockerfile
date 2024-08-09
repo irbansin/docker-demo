@@ -8,7 +8,7 @@ RUN npm i
 
 COPY . .
 
-RUN npm run build
+RUN npm build
 
 FROM nginx:1.25.2-alpine-slim
 
