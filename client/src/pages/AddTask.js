@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 import Home from "./Home";
 
 const AddTask = () => {
-  const navigate = useNavigate();
   const [data, setData] = useState({
     name: ""
   });
